@@ -1,0 +1,11 @@
+.select{position: fixed;border-radius: 45px 45px 0 0;bottom:0;left: 0px;right: 0px;background: linear-gradient(180deg,rgba(0, 10, 10, 1),rgba(0,10,10,1),rgba(0,10,10,1));height: 70px;backdrop-filter: blur(15px);display:flex;flex-direction:row;align-items:center;justify-content:center;gap:15px;z-index: 40;}
+
+.icons{height: 60px;width: 60px;background:rgba(0,0,0,0.1);stroke:lavender;fill:rgba(168,121,255,0.1);stroke-linejoin: round;border: 1px solid rgba(255,255,255,0.2);border-radius: 20px;backdrop-filter: blur(8px);box-shadow: 0 0 2px rgba(255,0,255,0.3);transition:all 0.1s ease-in-out;translate:0 0;scale:1;filter:brightness(1);}
+
+.pic{height: 80px;width: 60px;background: transparent;display: flex;flex-direction: column;gap:2px;transform:scale(0.6);}
+
+.pic span{font-size:small;margin: auto;background: none;font-weight: bold;color:rgba(216,213,232,0.7);transition:color 0.1s ease-in-out;margin-bottom: 1px;}
+
+.pic:hover svg{translate:2px -4px;scale:1.2;fill:lavender;stroke:lavender;filter:brightness(4);box-shadow:inset 0 0 3px #500294;}
+
+.pic:hover span{color:lavender;filter:brightness(1.3);}
