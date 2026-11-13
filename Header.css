@@ -11,7 +11,6 @@ linear-gradient(180deg,rgba(0,0,0,0.9)50%,rgba(0,0,0,0.7),rgba(0,0,0,0.2));backd
 
 .logo p{color:#fff;font-weight: bold;font-size: 15px;margin-block: auto;filter: brightness(4);width: fit-content;height: fit-content;display: block;position: relative;}
 
-.bb::after{background: #fff;filter: brightness(1);height: 2px;width:62px;position: absolute;bottom:1.1px;right: 8px;content: "";}
 
 .draw p{color:white;margin: auto;font-weight: bold;font-size: 13px;font-family: serif;height: fit-content;width: fit-content;filter: brightness(4);}
 
